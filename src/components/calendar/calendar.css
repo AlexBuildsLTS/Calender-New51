@@ -1,0 +1,77 @@
+.northmarket-calendar {
+  /* Calendar container */
+  .rbc-calendar {
+    @apply text-foreground;
+  }
+
+  /* Header */
+  .rbc-toolbar {
+    @apply mb-4;
+  }
+
+  .rbc-toolbar button {
+    @apply bg-secondary text-foreground border-border hover:bg-muted transition-colors;
+  }
+
+  .rbc-toolbar button.rbc-active {
+    @apply bg-brand-blue text-white;
+  }
+
+  /* Month view */
+  .rbc-month-view {
+    @apply border-border bg-secondary rounded-lg overflow-hidden;
+  }
+
+  .rbc-header {
+    @apply bg-secondary text-muted-foreground py-2 border-border;
+  }
+
+  .rbc-month-row {
+    @apply border-border;
+  }
+
+  .rbc-day-bg {
+    @apply border-border;
+  }
+
+  /* Today's date */
+  .rbc-today {
+    @apply bg-muted;
+  }
+
+  /* Events */
+  .rbc-event {
+    @apply bg-brand-blue text-white rounded border-none;
+  }
+
+  .rbc-event.rbc-selected {
+    @apply bg-accent;
+  }
+
+  /* Time grid */
+  .rbc-time-view {
+    @apply border-border bg-secondary rounded-lg overflow-hidden;
+  }
+
+  .rbc-time-header {
+    @apply border-border;
+  }
+
+  .rbc-time-content {
+    @apply border-border;
+  }
+
+  .rbc-time-slot {
+    @apply text-muted-foreground;
+  }
+
+  /* Off-range dates */
+  .rbc-off-range-bg {
+    @apply bg-muted/50;
+  }
+
+  /* Current time indicator */
+  .rbc-current-time-indicator {
+    @apply bg-brand-green;
+  }
+}
